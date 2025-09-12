@@ -1,6 +1,6 @@
 .driedelig {
   display: flex;
-  background-color: white;
+  background-color: #EEDBB5;
 height: 100px;
   align-items: center; 
   position: sticky;
@@ -57,7 +57,8 @@ P{font-family: monospace;
 
           /* tekstgrootte */
 
-    body{background-color: black;
+    body{background-color: #a19a7e
+ ;
       
       background-repeat: repeat;
       margin: 0;
