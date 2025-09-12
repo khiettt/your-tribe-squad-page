@@ -16,11 +16,15 @@ height: 100px;
 
 
 
+.map_selecteren{}
+
+
+
 .campusknop{padding-top: 40px;}
 
 
 
-  h1{font-size: 20px;
+  h1{font-size: 50px;
 color: black;
 font-family: monospace;}
   
@@ -34,7 +38,9 @@ padding: 12px;
 
 
 P{font-family: monospace;
-    font-size: 30px;
+    font-size: 30px
+    ;
+    color: white;
     
 }
 
@@ -51,10 +57,12 @@ P{font-family: monospace;
 
           /* tekstgrootte */
 
-    body{background-image: url(../assets/achtergrondafbeelding.png);
-      background-size: cover;
-      background-repeat: no-repeat;
+    body{background-color: black;
+      
+      background-repeat: repeat;
       margin: 0;
+      
+      
       
 
     }
@@ -100,7 +108,7 @@ margin-top: 200px;
   .driedeligimagesliderbegin {
   display: flex;
   ;
-margin-top: 350px;
+margin-top: 50px;
   align-items: center;  
   flex-wrap: wrap; /* laat elementen naar de volgende regel gaan */    }
 
@@ -112,9 +120,23 @@ display: flex;
   align-items: center;
 
 justify-content: center;
-}
+ margin-top: 80px;
  
+}
+.karakter_selectie_animatie{
+
+  color: white;
   
+  animation: flicker 1.5s infinite alternate;
+}
+ @keyframes flicker {
+  0%, 100% { opacity: 1; }
+  40% { opacity: 0.3; }
+  60% { opacity: 0.8; }
+  80% { opacity: 0.1; }
+}
+  
+
 
 
 @media (max-width: 768px) {
