@@ -1,0 +1,27 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins',sans;
+}
+
+body{ 
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2f2f2;
+}
+
+.cards .card .content .img{
+ height: 130px;
+ width: 130px;
+}
+
+.cards .card .content .img img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+border-radius: 50%;
+}
