@@ -15,8 +15,51 @@ height: 100px;
 }
 
 
+.tekst_slider{
+font-size: 20px;
+color: white;
 
-.map_selecteren{}
+
+}
+
+.map_selecteren_slider{
+ 
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: center;
+  gap: 1em;
+  width: 700px;
+  height: 530px; 
+  margin: 0 auto;
+  padding-top: 4em;
+ margin-bottom: 10em;
+
+}
+
+
+/* Hele scrollbar */
+::-webkit-scrollbar {
+  width: 12px;   /* breedte van verticale scrollbar */
+  height: 12px;  /* hoogte van horizontale scrollbar */
+}
+
+/* De "rail" (achtergrond van de scrollbar) */
+::-webkit-scrollbar-track {
+  background: hidden;
+}
+
+/* Het "thumb" (het blokje dat je kunt slepen) */
+::-webkit-scrollbar-thumb {
+  background: #EEDBB5;
+  border-radius: 6px;
+}
+
+/* Hover effect op het blokje */
+::-webkit-scrollbar-thumb:hover {
+  background: #EEDBB5;
+}
+
 
 
 
@@ -100,7 +143,7 @@ P{font-family: monospace;
     
     .driedeligimageslider {
   display: flex;
-  ;
+  
 margin-top: 200px;
   align-items: center;  
   flex-wrap: wrap; /* laat elementen naar de volgende regel gaan */    }
@@ -108,7 +151,7 @@ margin-top: 200px;
   
   .driedeligimagesliderbegin {
   display: flex;
-  ;
+  
 margin-top: 50px;
   align-items: center;  
   flex-wrap: wrap; /* laat elementen naar de volgende regel gaan */    }
