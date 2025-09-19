@@ -13,14 +13,36 @@ height: 100px;
 .pfp{ 
   border-radius: 10px;
 }
+.scale{ 
+  border-radius: 10px;
+  transform: scale(0.9);
+}
 
 
 .tekst_slider{
-font-size: 20px;
+font-size: 30px;
 color: white;
+text-align: center;
+
+
 
 
 }
+
+
+
+.midden_tjeerd{
+
+
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  
+
+}
+
 
 .map_selecteren_slider{
  
@@ -30,7 +52,7 @@ color: white;
   scroll-snap-type: center;
   gap: 1em;
   width: 700px;
-  height: 530px; 
+  height: 800px; 
   margin: 0 auto;
   padding-top: 4em;
  margin-bottom: 10em;
